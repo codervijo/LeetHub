@@ -8,9 +8,9 @@ var oAuth2 = {
         this.KEY = "leethub_token";
         this.ACCESS_TOKEN_URL = "https://github.com/login/oauth/access_token";
         this.AUTHORIZATION_URL = "https://github.com/login/oauth/authorize";
-        this.CLIENT_ID = "YOUR CLIENT ID HERE";
-        this.CLIENT_SECRET = "YOUR CLIENT SECRET HERE";
-        this.REDIRECT_URL = "ENTER REDIRECT URL FOR YOUR APPLICATION"; //for example, https://github.com
+        this.CLIENT_ID = "CHANGE1";
+        this.CLIENT_SECRET = "CHANGE2";
+        this.REDIRECT_URL = "https://github.com"; //for example, https://github.com
         this.SCOPES = ['repo'];
     },
 
